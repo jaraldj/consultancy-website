@@ -530,10 +530,6 @@ video {
   position: absolute;
 }
 
-.relative {
-  position: relative;
-}
-
 .bottom-0 {
   bottom: 0px;
 }
@@ -566,6 +562,11 @@ video {
   float: right;
 }
 
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .my-8 {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -583,12 +584,20 @@ video {
   margin-bottom: 2rem;
 }
 
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
 .mr-2 {
   margin-right: 0.5rem;
 }
 
 .mr-6 {
   margin-right: 1.5rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
 .mt-8 {
@@ -669,6 +678,10 @@ video {
   justify-content: space-between;
 }
 
+.gap-1 {
+  gap: 0.25rem;
+}
+
 .gap-4 {
   gap: 1rem;
 }
@@ -679,10 +692,6 @@ video {
 
 .gap-8 {
   gap: 2rem;
-}
-
-.gap-1 {
-  gap: 0.25rem;
 }
 
 .gap-y-5 {
@@ -801,6 +810,11 @@ video {
   padding: 2rem;
 }
 
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -809,11 +823,6 @@ video {
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
-}
-
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 .py-14 {
@@ -849,6 +858,11 @@ video {
 .py-px {
   padding-top: 1px;
   padding-bottom: 1px;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .pb-10 {
@@ -907,6 +921,10 @@ video {
   text-align: center;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 .font-\[Poppins\] {
   font-family: Poppins;
 }
@@ -941,6 +959,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -948,6 +971,11 @@ video {
 .text-\[\#6c6c6c\] {
   --tw-text-opacity: 1;
   color: rgb(108 108 108 / var(--tw-text-opacity));
+}
+
+.text-neutral-500 {
+  --tw-text-opacity: 1;
+  color: rgb(115 115 115 / var(--tw-text-opacity));
 }
 
 .text-orange-500 {
@@ -995,21 +1023,13 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:absolute {
-    position: absolute;
-  }
-
-  .md\:relative {
-    position: relative;
-  }
-
   .md\:mx-6 {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
   }
 
-  .md\:mb-1 {
-    margin-bottom: 0.25rem;
+  .md\:ml-4 {
+    margin-left: 1rem;
   }
 
   .md\:mt-1 {
@@ -1020,24 +1040,12 @@ video {
     margin-top: 2rem;
   }
 
-  .md\:mb-0 {
-    margin-bottom: 0px;
-  }
-
   .md\:block {
     display: block;
   }
 
   .md\:flex {
     display: flex;
-  }
-
-  .md\:grid {
-    display: grid;
-  }
-
-  .md\:w-\[45\%\] {
-    width: 45%;
   }
 
   .md\:grid-flow-col {
@@ -1050,10 +1058,6 @@ video {
 
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .md\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .md\:grid-rows-3 {
@@ -1087,19 +1091,13 @@ video {
     padding-right: 9rem;
   }
 
-  .md\:px-48 {
-    padding-left: 12rem;
-    padding-right: 12rem;
-  }
-
-  .md\:px-60 {
-    padding-left: 15rem;
-    padding-right: 15rem;
-  }
-
   .md\:py-14 {
     padding-top: 3.5rem;
     padding-bottom: 3.5rem;
+  }
+
+  .md\:pb-0 {
+    padding-bottom: 0px;
   }
 
   .md\:pt-14 {
@@ -1108,10 +1106,6 @@ video {
 
   .md\:pt-20 {
     padding-top: 5rem;
-  }
-
-  .md\:pb-0 {
-    padding-bottom: 0px;
   }
 
   .md\:text-4xl {
@@ -1136,14 +1130,6 @@ video {
 
   .lg\:relative {
     position: relative;
-  }
-
-  .lg\:top-\[40\%\] {
-    top: 40%;
-  }
-
-  .lg\:left-\[30\%\] {
-    left: 30%;
   }
 
   .lg\:my-8 {
@@ -1196,8 +1182,13 @@ video {
     justify-content: flex-end;
   }
 
-  .lg\:gap-\[4vw\] {
-    gap: 4vw;
+  .lg\:gap-\[3vw\] {
+    gap: 3vw;
+  }
+
+  .lg\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
   }
 
   .lg\:px-36 {
@@ -1210,6 +1201,11 @@ video {
     padding-right: 1rem;
   }
 
+  .lg\:px-48 {
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+
   .lg\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -1220,9 +1216,8 @@ video {
     padding-bottom: 0px;
   }
 
-  .lg\:px-48 {
-    padding-left: 12rem;
-    padding-right: 12rem;
+  .lg\:pb-0 {
+    padding-bottom: 0px;
   }
 
   .lg\:pb-8 {
@@ -1237,8 +1232,8 @@ video {
     padding-top: 7rem;
   }
 
-  .lg\:pb-0 {
-    padding-bottom: 0px;
+  .lg\:pt-8 {
+    padding-top: 2rem;
   }
 
   .lg\:text-left {

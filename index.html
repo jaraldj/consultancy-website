@@ -18,9 +18,9 @@
     <div class="font-[Poppins]">
       <!-- header starts here -->
       <header class="bg-white fixed top-0 w-full z-10" id="navbar">
-        <nav class="flex justify-between lg:px-36 py-5">
+        <nav class="flex justify-between lg:px-36 py-5 ml-2">
           <div class="w-full">
-            <a class="text-2xl" href="#">TMK Consulting</a>
+            <a class="text-2xl md:ml-4" href="#">TMK Consulting</a>
           </div>
 
           <div
@@ -30,7 +30,7 @@
               class="flex lg:items-end lg:justify-end items-center justify-center"
             >
               <ul
-                class="flex lg:flex-row flex-col items-center lg:gap-[4vw] gap-8"
+                class="flex lg:flex-row flex-col items-center lg:gap-[3vw] gap-8"
               >
                 <li>
                   <a class="hover:text-orange-500" href="#">Home</a>
@@ -45,9 +45,7 @@
                   <a class="hover:text-orange-500" href="#aboutUs">About</a>
                 </li>
                 <li>
-                  <a class="hover:text-orange-500" href="#contactUs"
-                    >Contact Us</a
-                  >
+                  <a class="hover:text-orange-500" href="#contactUs">Contact</a>
                 </li>
               </ul>
             </div>
@@ -72,7 +70,9 @@
               >
                 Your Partner for Digital Transformation
               </h2>
-              <p class="text-lg lg:text-xl pb-10 mb-14 lg:pb-8 text-white">
+              <p
+                class="text-lg text-justify lg:text-xl pb-10 mb-14 lg:pb-8 text-white px-4"
+              >
                 Unlock the true potential of your business with our innovative
                 solutions and expertise in digital transformation. From
                 industry-leading consulting services to cutting-edge technology
@@ -101,14 +101,14 @@
 
         <!--  -->
         <div
-          class="min-h-screen text-center pt-6 bg-orange-50 md:pb-0 pb-8"
+          class="min-h-screen text-center pt-6 bg-orange-50 md:pb-0 pb-8 mt-2"
           id="about"
         >
           <h2 class="md:text-5xl text-2xl font-bold text-orange-500 pt-14 pb-8">
-            What we do
+            What We Do
           </h2>
           <p
-            class="text-center md:mx-6 lg:px-48 text-lg flex justify-self-center"
+            class="text-justify md:mx-6 lg:px-48 text-lg flex justify-self-center mx-2"
           >
             We specialize in implementing innovative solutions that drive
             digital transformation by harmonizing and enhancing IT operations,
@@ -121,17 +121,18 @@
             <div>
               <img src="./assets/social-bg.png" />
               <h2 class="text-xl py-2">Platforms</h2>
-              <p class="text-[#6c6c6c]">
-                Our three switch framework empowers businesses to expedite their
-                operations through a comprehensive automation platform, driving
-                seamless integration and efficiency.
+              <p class="text-[#6c6c6c] text-justify">
+                With our three switch framework, businesses gain the power to
+                accelerate their operations using a comprehensive automation
+                platform, enabling seamless integration and maximizing
+                efficiency.
               </p>
             </div>
 
             <div>
               <img src="./assets/social-bg.png" />
               <h2 class="text-xl py-2">Cloud</h2>
-              <p class="text-[#6c6c6c]">
+              <p class="text-[#6c6c6c] text-justify">
                 Unlock the full potential of cloud computing by migrating
                 workloads, modernizing application development, and embracing
                 Software-as-a-Service (SaaS) solutions, enabling businesses to
@@ -142,7 +143,7 @@
             <div>
               <img src="./assets/social-bg.png" />
               <h2 class="text-xl py-2">Services</h2>
-              <p class="text-[#6c6c6c]">
+              <p class="text-[#6c6c6c] text-justify">
                 Evaluate the digital, analytics, and technology maturity of your
                 organization through our diverse range of services, helping you
                 gain valuable insights and make informed decisions about your
@@ -155,7 +156,7 @@
         <!--  -->
 
         <div
-          class="min-h-screen bg-backimg bg-fixed bg-no-repeat bg-cover bg-center text-center lg:px-36 px-4 lg:pb-0 pb-8"
+          class="min-h-screen bg-backimg bg-fixed bg-no-repeat bg-cover bg-center text-center lg:px-32 px-4 lg:pb-0 pb-8 lg:pt-8"
           id="services"
         >
           <h2 class="md:text-5xl text-2xl font-bold text-orange-500 pt-16">
@@ -168,16 +169,16 @@
           <div
             class="grid md:grid-cols-2 lg:grid-cols-4 gap-5 pt-12 md:px-1 px-4"
           >
-            <div class="group">
+            <div class="group mb-4">
               <div
-                class="border-t-4 border-t-orange-500 bg-white px-8 py-8 group-hover:bg-gray-100 h-full group-hover:scale-105 ease-in duration-300 rounded-b-lg"
+                class="border-t-4 border-t-orange-500 bg-white px-4 py-8 group-hover:bg-gray-100 h-full group-hover:scale-105 ease-in duration-300 rounded-b-lg"
               >
                 <ion-icon
                   class="text-5xl p-5 rounded-full bg-gray-200 group-hover:bg-orange-500 group-hover:text-orange-50"
-                  name="albums-outline"
+                  name="analytics-outline"
                 ></ion-icon>
-                <h2 class="text-3xl py-5">Data & Analytics</h2>
-                <p class="text-[#6c6c6c]">
+                <h2 class="text-2xl py-5">Data & Analytics</h2>
+                <p class="text-neutral-500 text-xs text-justify">
                   TMK utilizes data analytics to uncover opportunities, mitigate
                   risks, and provide valuable insights to organizations,
                   enabling timely and meaningful responses for competitive
@@ -185,31 +186,32 @@
                 </p>
               </div>
             </div>
-            <div class="group">
+            <div class="group mb-4">
               <div
-                class="border-t-4 border-t-orange-500 bg-white px-8 py-8 group-hover:bg-gray-100 h-full group-hover:scale-105 ease-in duration-300 rounded-b-lg"
+                class="border-t-4 border-t-orange-500 bg-white px-4 py-8 group-hover:bg-gray-100 h-full group-hover:scale-105 ease-in duration-300 rounded-b-lg"
               >
                 <ion-icon
                   class="text-5xl p-5 rounded-full bg-gray-200 group-hover:bg-orange-500 group-hover:text-orange-50"
-                  name="albums-outline"
+                  name="finger-print-outline"
                 ></ion-icon>
-                <h2 class="text-3xl py-5">Digital Transformation</h2>
-                <p class="text-[#6c6c6c]">
+                <h2 class="text-2xl py-5">Digital Transition</h2>
+                <p class="text-neutral-500 text-xs text-justify">
                   Shift to PoVs, leverage emerging tech, and embrace digital
-                  transformation for undeniable business value.
+                  transformation for undeniable business value, propelling
+                  organizations towards unprecedented success.
                 </p>
               </div>
             </div>
-            <div class="group">
+            <div class="group mb-4">
               <div
-                class="border-t-4 border-t-orange-500 bg-white px-8 py-8 group-hover:bg-gray-100 h-full group-hover:scale-105 ease-in duration-300 rounded-b-lg"
+                class="border-t-4 border-t-orange-500 bg-white px-4 py-8 group-hover:bg-gray-100 h-full group-hover:scale-105 ease-in duration-300 rounded-b-lg"
               >
                 <ion-icon
                   class="text-5xl p-5 rounded-full bg-gray-200 group-hover:bg-orange-500 group-hover:text-orange-50"
-                  name="albums-outline"
+                  name="stats-chart-outline"
                 ></ion-icon>
-                <h2 class="text-3xl py-5">Consulting Services</h2>
-                <p class="text-[#6c6c6c]">
+                <h2 class="text-2xl py-5">Consulting Services</h2>
+                <p class="text-neutral-500 text-xs text-justify">
                   Provide clients with industry expertise, global delivery
                   capability, and strategic solutions, including project
                   management and resource augmentation, to chart their desired
@@ -217,19 +219,20 @@
                 </p>
               </div>
             </div>
-            <div class="group">
+            <div class="group mb-4">
               <div
-                class="border-t-4 border-t-orange-500 bg-white px-8 py-8 group-hover:bg-gray-100 h-full group-hover:scale-105 ease-in duration-300 rounded-b-lg"
+                class="border-t-4 border-t-orange-500 bg-white px-4 py-8 group-hover:bg-gray-100 h-full group-hover:scale-105 ease-in duration-300 rounded-b-lg"
               >
                 <ion-icon
                   class="text-5xl p-5 rounded-full bg-gray-200 group-hover:bg-orange-500 group-hover:text-orange-50"
-                  name="albums-outline"
+                  name="server-outline"
                 ></ion-icon>
-                <h2 class="text-3xl py-5">Application Development</h2>
-                <p class="text-[#6c6c6c]">
-                  TMK: Open standards. Agile methodology. Complete solutions.
-                  Bespoke app development, cross-platform/native apps, AI in
-                  Python.
+                <h2 class="text-2xl py-5">Development</h2>
+                <p class="text-neutral-500 text-xs text-justify">
+                  TMK: We prioritize open standards, embrace agile methodology,
+                  and provide comprehensive solutions. Our expertise lies in
+                  custom app development, catering to both cross-platform and
+                  native apps, while leveraging Python for AI integration.
                 </p>
               </div>
             </div>
@@ -239,7 +242,7 @@
         <!--  -->
 
         <div
-          class="min-h-screen lg:px-36 pt-8 md:p-0 p-4 bg-orange-50"
+          class="min-h-screen lg:px-36 pt-8 md:p-0 p-4 bg-orange-50 mt-2"
           id="aboutUs"
         >
           <!-- <h2
@@ -260,7 +263,7 @@
                 class="lg:absolute top-[40%] left-[30%] lg:w-[45%] border-4 border-orange-400"
               />
             </div>
-            <div>
+            <div class="md:ml-4">
               <p class="text-orange-500 md:mt-1 mt-8">
                 About our Company
                 <span class="inline-block w-20 py-px bg-orange-500"></span>
@@ -268,7 +271,7 @@
               <h2 class="md:text-4xl font-bold text-lg py-5 mb-8">
                 Professional IT Experts for Tech Solutions
               </h2>
-              <p class="text-[#6c6c6c]">
+              <p class="text-[#6c6c6c] text-justify">
                 At TMK, our core belief is that people are the focal point of
                 digital transformation. We are driven by the idea that
                 empowering individuals and placing them at the center of
@@ -285,7 +288,7 @@
                         name="checkmark-circle"
                         class="text-orange-500 pr-4"
                       ></ion-icon></span
-                    >Quality Services
+                    >Expertise-driven solutions
                   </li>
                   <li>
                     <span
@@ -293,7 +296,7 @@
                         name="checkmark-circle"
                         class="text-orange-500 pr-4"
                       ></ion-icon></span
-                    >24/7 Support
+                    >Client-centric approach
                   </li>
                   <li>
                     <span
@@ -301,7 +304,7 @@
                         name="checkmark-circle"
                         class="text-orange-500 pr-4"
                       ></ion-icon></span
-                    >Humour for chang seamlessly
+                    >Uncompromising quality
                   </li>
                   <li>
                     <span
@@ -309,7 +312,7 @@
                         name="checkmark-circle"
                         class="text-orange-500 pr-4"
                       ></ion-icon></span
-                    >Velit esse cillum dolore eu
+                    >Collaborative partnerships
                   </li>
                   <li>
                     <span
@@ -317,7 +320,7 @@
                         name="checkmark-circle"
                         class="text-orange-500 pr-4"
                       ></ion-icon></span
-                    >Duis aute dolor in volupte
+                    >Continuous improvement
                   </li>
                   <li>
                     <span
@@ -325,7 +328,7 @@
                         name="checkmark-circle"
                         class="text-orange-500 pr-4"
                       ></ion-icon></span
-                    >Refresing to get a personal
+                    >Trust and integrity
                   </li>
                 </ul>
               </div>
@@ -335,7 +338,10 @@
 
         <!--  -->
 
-        <div class="bg-[#1e1e1e] min-h-screen pt-8 lg:relative" id="contactUs">
+        <div
+          class="bg-[#1e1e1e] min-h-screen pt-8 lg:relative mt-2"
+          id="contactUs"
+        >
           <h2
             class="md:text-5xl text-2xl text-center font-bold text-orange-500 md:py-14 pt-8"
           >
@@ -353,9 +359,9 @@
                       name="call"
                     ></ion-icon>
                   </span>
-                  <p class="inline-block">+91 xxxxxx xxxx</p>
+                  <p class="inline-block">+91 8870997280</p>
                   <br />
-                  <p class="inline-block pl-8">+91 xxxxxx xxxx</p>
+                  <p class="inline-block pl-8">+91 6379344387</p>
                 </li>
                 <li class="py-3">
                   <a href="mailto:kumarcs@tmkconsulting.co.in">
@@ -375,9 +381,9 @@
                       name="location"
                     ></ion-icon>
                   </span>
-                  <p class="inline-block">xxxxx,xxxx,</p>
-                  <p class="pl-8">yyyyyyy, yyyyyyy</p>
-                  <p class="pl-8">zzzz,zzzz</p>
+                  <p class="inline-block">Yasho</p>
+                  <p class="pl-8">Old State Bank Colony</p>
+                  <p class="pl-8">West Tambaram</p>
                 </li>
               </ul>
             </div>
